@@ -1,0 +1,40 @@
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git push -u origin master
+To https://github.com/zaagagon/ejercicios_html.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/zaagagon/ejercicios_html.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git remote  show origin
+* remote origin
+  Fetch URL: https://github.com/zaagagon/ejercicios_html.git
+  Push  URL: https://github.com/zaagagon/ejercicios_html.git
+  HEAD branch: master
+  Remote branch:
+    master new (next fetch will store in remotes/origin)
+  Local ref configured for 'git push':
+    master pushes to master (local out of date)
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git push --set-upstream origin master
+To https://github.com/zaagagon/ejercicios_html.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/zaagagon/ejercicios_html.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
