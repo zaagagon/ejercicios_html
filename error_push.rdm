@@ -38,3 +38,80 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+
+**************************************
+SOLUCION
+********************************
+
+
+$ git pull  --rebase origin master
+From https://github.com/zaagagon/ejercicios_html
+ * branch            master     -> FETCH_HEAD
+First, rewinding head to replay your work on top of it...
+Applying: creando espacio para el repositorio de html
+Applying: archivo txt creado
+Applying: cambios en txt
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git pull --allow-unrelated-histories <repo> <branch>
+bash: syntax error near unexpected token `<'
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git push --set-upstream origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.13 KiB | 387.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/zaagagon/ejercicios_html.git
+   3a4ff7b..4e449ea  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git remote -v
+origin  https://github.com/zaagagon/ejercicios_html.git (fetch)
+origin  https://github.com/zaagagon/ejercicios_html.git (push)
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/zaagagon/ejercicios_html
+   4e449ea..39cb342  master     -> origin/master
+Updating 4e449ea..39cb342
+Fast-forward
+ readme.md | 2 ++
+ zag.txt   | 1 +
+ 2 files changed, 3 insertions(+)
+
+Personal@DESKTOP-U1EJ5KF MINGW64 /c/MEAN/ejercicios_html (master)
+
