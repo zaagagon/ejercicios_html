@@ -8,3 +8,5 @@ Para subir los cambios realizados de manera local.
 //git pull
 Para actualizar los cambios realizados en la nube en mi repositorio local.
 
+Cambios aceptados por : dragon_black
+
