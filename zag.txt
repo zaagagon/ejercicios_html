@@ -3,3 +3,8 @@ Prueba n2
 prueba 3 en github
 ahora desde repositorio local
 Proximamente se creara un indice de los programas que tengamos en este repositorio.
+//git push
+Para subir los cambios realizados de manera local.
+//git pull
+Para actualizar los cambios realizados en la nube en mi repositorio local.
+
