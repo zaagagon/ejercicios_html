@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body  onload="nuevoContenido();">
 
    <!-- Tambien podriamos poner en el script en una funcion-->
     <script>
@@ -27,7 +27,14 @@
                     
     </script>
 
-
+<script>
+        function nuevoContenido() {
+          alert("carga el contenido nuevo");
+          document.open();
+          document.write("<h1>Quita el contenido viejo - Agrega el contenido nuevo!</h1>");
+          document.close();
+        }
+      </script>
 
 </body>
 </html>
