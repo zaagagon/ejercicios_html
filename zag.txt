@@ -4,6 +4,10 @@ Retomando en enero del 2020
 05 de enero prueba local para subir archivos en github
 ========================
 
+****
+remember: para subir cambios locales a nuestros archivo remotos usemos al final el comando ------  ***git push**
+***
+
 
 es una prueba
 Prueba n2
