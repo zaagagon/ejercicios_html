@@ -8,7 +8,14 @@ Retomando en enero del 2020
 remember: para subir cambios locales a nuestros archivo remotos usemos al final el comando ------  ***git push**
 ***
 
+================
+Enero 6 de 2020
 
+Para guardar los cambios remotos en nuestros ficheros locales 
+usemos el comando:
+
+git pull
+================
 es una prueba
 Prueba n2
 prueba 3 en github
