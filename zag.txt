@@ -11,6 +11,11 @@ remember: para subir cambios locales a nuestros archivo remotos usemos al final 
 ================
 Enero 6 de 2020
 
+
+**
+Cambios realizados el 11 de enero de 2020 sabado
+
+**
 Para guardar los cambios remotos en nuestros ficheros locales 
 usemos el comando:
 
