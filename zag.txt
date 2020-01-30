@@ -39,3 +39,12 @@ git remote show origin
 ===========================
 
 Permite revisar el fetch y el push
+
+
+REPASANDO COMANDOS
+==================
+
+GIT STATUS
+GIT ADD .
+GIT COMMIT -M "**********"
+GIT PUSH --- PARA SUBIR CAMBIOS LOCALES A LA NUBE
