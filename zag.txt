@@ -48,3 +48,12 @@ GIT STATUS
 GIT ADD .
 GIT COMMIT -M "**********"
 GIT PUSH --- PARA SUBIR CAMBIOS LOCALES A LA NUBE
+
+RETOMANDO EL repositorio
+========================
+ACTUALIZACION DEL REPOSITORIO 
+
+Jueves 29 de Octubre de 2020
+
+5 html 
+y demas archivos por revisar
