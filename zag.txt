@@ -57,3 +57,11 @@ Jueves 29 de Octubre de 2020
 
 5 html 
 y demas archivos por revisar
+
+
+ACTUALIZACION del repositorio ejercicios html
+================================================
+para actualizar el repositorio local
+usamos el comando:
+git pull origin master
+subir estos cambios al reposotorio
