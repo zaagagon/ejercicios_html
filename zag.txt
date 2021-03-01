@@ -65,3 +65,14 @@ para actualizar el repositorio local
 usamos el comando:
 git pull origin master
 subir estos cambios al reposotorio
+
+Retomando la programacion marzo 2021
+===================================sud
+
+Escribo en el archivo tablas1.html 
+ahora trato de guardar los cambios en git
+Miremos que recordamos
+REVISE DE NUEVO MI SERVIDOR DISCORD
+sigamos revisando 
+que podemos cambiar
+revisar mas este archivo
