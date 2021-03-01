@@ -19,6 +19,7 @@
         {
             // obtenemos el numero de respuestas posibles
             var numeroRespuestas=document.getElementById("numeroRespuestas").value;
+            var nombreJugador=document.getElementById("nombreJugador").value;
  
             if(document.getElementById("numeroRespuestas").disabled==false)
             {
@@ -59,7 +60,7 @@
                             // has acertado
  
                             // Añadimos un texto a las respuestas
-                            respuestas+="<br><span class='acertado'>"+numero+" - HAS ACETADO!!</span>";
+                            respuestas+="<br><span class='acertado'>"+numero+" - HAS ACERTADO!!</span>"+"felitaciones"+nombreJugador;
  
                             fin()
                         }
@@ -105,6 +106,8 @@
 <h1>Adivina un número entre 1 y 100</h1>
  
 <form onsubmit="return adivinar()">
+    Nombre del jugador
+    <input type="text" name="nombreJugador" id="nombreJugador" ><br>
     Indica el número de intentos posibles:
     <input type="text" name="numeroRespuestas" id="numeroRespuestas">
  
