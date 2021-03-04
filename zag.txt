@@ -76,3 +76,9 @@ REVISE DE NUEVO MI SERVIDOR DISCORD
 sigamos revisando 
 que podemos cambiar
 revisar mas este archivo
+
+marzo 03
+========
+agrego lineas de script sumando dos numeros en html
+
+
