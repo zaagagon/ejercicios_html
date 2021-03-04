@@ -127,21 +127,25 @@ document.write(z)
  
 <body>
     <h1 style="color: blue; text-align: center;">EL MUNDO DE ZAG</h1>
-<h1>Adivina un número entre 1 y 100</h1>
-return imprimir();
-<form onsubmit="return adivinar()">
-    Nombre del jugador
-    <input type="text" name="nombreJugador" id="nombreJugador" ><br>
-    Indica el número de intentos posibles:
-    <input type="text" name="numeroRespuestas" id="numeroRespuestas">
- 
-    <br>Indica un numero entre 1 y 100:
-    <input type="text" name="numero" id="numero" disabled>
- 
-    <br><input type="submit" value="Enviar" id="btnEnviar">
-</form>
- 
-<div id="respuestas"></div>
+
+    <fieldset>
+        <legend>Adivinar Número 2021</legend>
+        <h1>Adivina un número entre 1 y 100</h1>
+                <form onsubmit="return adivinar()">
+            Nombre del jugador
+            <input type="text" name="nombreJugador" id="nombreJugador" ><br>
+            Indica el número de intentos posibles:
+            <input type="text" name="numeroRespuestas" id="numeroRespuestas">
+         
+            <br>Indica un numero entre 1 y 100:
+            <input type="text" name="numero" id="numero" disabled>
+         
+            <br><input type="submit" value="Enviar" id="btnEnviar">
+        </form>
+         
+        <div id="respuestas"></div>
+    </fieldset>
+
 
 <fieldset>
     <legend>Ingrese dos numeros</legend>
