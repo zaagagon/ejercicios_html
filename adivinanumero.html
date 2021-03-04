@@ -99,12 +99,34 @@
         {
             return !isNaN(parseFloat(n)) && isFinite(n);
         }
+
+        //FUNCION PARA MIRAR QUE HACE
+        //SALE ERROR
+function imprimir(){
+    var z=0;
+for (var x=0;x<4;x++){
+    z+=2
+    //console.log(z);
+}
+document.write(z)
+}
+        
     </script>
+
+<script>
+    function Sumar() {
+        var n1 = document.getElementById('txtN1').value;
+        var n2 = document.getElementById('txtN2').value;
+        var suma = parseInt(n1) + parseInt(n2);
+        alert("La suma es: "+suma)
+    }
+</script>
 </head>
  
 <body>
+    <h1 style="color: blue; text-align: center;">EL MUNDO DE ZAG</h1>
 <h1>Adivina un número entre 1 y 100</h1>
- 
+return imprimir();
 <form onsubmit="return adivinar()">
     Nombre del jugador
     <input type="text" name="nombreJugador" id="nombreJugador" ><br>
@@ -118,6 +140,19 @@
 </form>
  
 <div id="respuestas"></div>
- 
+
+<fieldset>
+    <legend>Ingrese dos numeros</legend>
+    <label for="">Numero 1:</label>
+    <input type="text" id="txtN1">
+    <br><br>
+    <label for="">Numero 2:</label>
+    <input type="text" id="txtN2">
+    <br><br>
+    <input type="button" onclick="Sumar();" value="Calucular">
+</fieldset>
 </body>
+
+ 
+
 </html>
