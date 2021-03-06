@@ -82,3 +82,6 @@ marzo 03
 agrego lineas de script sumando dos numeros en html
 
 
+marzo 05 
+======
+agregue lineas de fieldset y legend en tablas_pc1.html
