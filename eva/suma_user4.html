@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #calculator {
+            background-color: #3498db;
+            border: 2px solid #2980b9;
+            width: 350px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+        }
+        #calculator h1 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .input-container {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #menu {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .opcion {
+            flex: 1;
+            padding: 10px;
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .opcion:hover {
+            background-color: #1f6f9f;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        button#borrar {
+            width: 100%;
+            margin-top
