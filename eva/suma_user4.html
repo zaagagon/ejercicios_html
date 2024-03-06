@@ -84,18 +84,18 @@
 </head>
 <body>
     <div id="calculator">
-        <h1>Calculadora</h1>
+        <h1>"BAR LA CAVA"</h1>
         <div class="input-container">
-            <label for="numero1">Número 1:</label>
+            <label for="numero1">Producto 1:</label>
             <input type="number" id="numero1">
         </div>
         <div class="input-container">
-            <label for="numero2">Número 2:</label>
+            <label for="numero2">Producto 2:</label>
             <input type="number" id="numero2">
         </div>
         <div id="menu">
-            <button class="opcion" onclick="sumar()">Sumar</button>
-            <button class="opcion" onclick="restar()">Restar</button>
+            <button class="opcion" onclick="sumar()">Registrar</button>
+            <button class="opcion" onclick="restar()">Facturar</button>
             <button class="opcion" onclick="multiplicar()">Multiplicar</button>
             <button class="opcion" onclick="dividir()">Dividir</button>
         </div>
@@ -108,21 +108,21 @@
             var num1 = parseFloat(document.getElementById("numero1").value);
             var num2 = parseFloat(document.getElementById("numero2").value);
             var resultado = num1 + num2;
-            document.getElementById("resultado").innerHTML = "Resultado: " + resultado;
+            document.getElementById("resultado").innerHTML = "Resultado de la compra: " + resultado;
         }
 
         function restar() {
             var num1 = parseFloat(document.getElementById("numero1").value);
             var num2 = parseFloat(document.getElementById("numero2").value);
             var resultado = num1 - num2;
-            document.getElementById("resultado").innerHTML = "Resultado: " + resultado;
+            document.getElementById("resultado").innerHTML = "Resultado de la compra: " + resultado;
         }
 
         function multiplicar() {
             var num1 = parseFloat(document.getElementById("numero1").value);
             var num2 = parseFloat(document.getElementById("numero2").value);
             var resultado = num1 * num2;
-            document.getElementById("resultado").innerHTML = "Resultado: " + resultado;
+            document.getElementById("resultado").innerHTML = "Resultado de la compra: " + resultado;
         }
 
         function dividir() {
